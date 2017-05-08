@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    benchmark-ips (2.7.2)
+    benchmark-memory (0.1.2)
+      memory_profiler (~> 0.9)
+    hjson (0.1.0)
+      json (~> 2.0.2)
+    json (2.0.4)
+    memory_profiler (0.9.8)
+    oj (3.0.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  benchmark-ips
+  benchmark-memory
+  hjson
+  oj
+
+BUNDLED WITH
+   1.14.6
