@@ -4,9 +4,9 @@ GEM
     benchmark-ips (2.7.2)
     benchmark-memory (0.1.2)
       memory_profiler (~> 0.9)
-    hjson (0.1.0)
-      json (~> 2.0.2)
-    json (2.0.4)
+    hjson (0.1.2)
+      json (>= 1.7.5)
+    json (2.5.1)
     memory_profiler (0.9.8)
     oj (3.0.6)
 
@@ -17,7 +17,8 @@ DEPENDENCIES
   benchmark-ips
   benchmark-memory
   hjson
+  json (>= 2.3.0)
   oj
 
 BUNDLED WITH
-   1.14.6
+   1.17.3
